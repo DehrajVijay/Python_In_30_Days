@@ -16,7 +16,7 @@ BAR = "─" * WIDTH
 
 name_raw, email_raw, phone_raw, amount_raw, city_raw = RAW.split(",")
 
-# - Step 2 email: normalise, then validate---------------
+# - Step 2 normalise name---------------
 
 name = " ".join(name_raw.split()).title()
 
